@@ -518,19 +518,6 @@
     "is_official": true
   },
   {
-    "id": "cloudflare-docs-mcp",
-    "name": "Cloudflare Docs",
-    "description": "Documentation for Cloudflare products.",
-    "category": "Documentation",
-    "mcp_url": "https://docs.mcp.cloudflare.com/sse",
-    "authentication_types": ["Open"],
-    "documentation_url": "https://developers.cloudflare.com/mcp/",
-    "maintainer_name": "Cloudflare",
-    "maintainer_url": "https://cloudflare.com",
-    "icon_url": null,
-    "is_official": true
-  },
-  {
     "id": "deepwiki-mcp",
     "name": "DeepWiki",
     "description": "RAG-as-a-Service for knowledge bases.",
@@ -576,7 +563,7 @@
     "category": "Blockchain Data Analysis",
     "mcp_url": "https://mcp.bitte.ai/sse",
     "authentication_types": ["Open"],
-    "documentation_url": "https://bitte.ai/docs/mcp",
+    "documentation_url": "https://docs.bitte.ai/agents/mcp",
     "maintainer_name": "Bitte",
     "maintainer_url": "https://bitte.ai",
     "icon_url": null,
