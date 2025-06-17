@@ -248,7 +248,7 @@
     "documentation_url": "https://developers.cloudflare.com/logs/mcp-integration/",
     "maintainer_name": "Cloudflare",
     "maintainer_url": "https://cloudflare.com",
-    "icon_url": null,
+    "icon_url": "https://remote-mcp-servers.com/logos/cloudflare.png",
     "is_official": true
   },
   {
@@ -276,7 +276,7 @@
     "documentation_url": "https://docs.github.com/en/copilot/customizing-copilot/using-model-context-protocol",
     "maintainer_name": "GitHub",
     "maintainer_url": "https://github.com",
-    "icon_url": "https://remote-mcp-servers.com/logos/github.svg",
+    "icon_url": "https://remote-mcp-servers.com/logos/github.png",
     "is_official": true
   },
   {
