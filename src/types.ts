@@ -11,7 +11,4 @@ export interface DiscoverableMcpServer {
   maintainer_url: string;
   icon_url?: string;
   is_official?: boolean;
-
-  healthStatus?: 'healthy' | 'unhealthy' | 'unknown' | 'pending';
-  lastChecked?: string; // ISO date string for when the health check was last performed
 }
