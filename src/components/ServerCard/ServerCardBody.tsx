@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack, Typography, Chip, Box, Link as MuiLink } from '@mui/joy';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { LocalOfferOutlined } from '@mui/icons-material';

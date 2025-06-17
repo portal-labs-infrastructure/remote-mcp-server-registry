@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack, Avatar, Typography, Link as MuiLink } from '@mui/joy';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { type DiscoverableMcpServer } from '../../types';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, CardActions, Snackbar } from '@mui/joy';
 import { Article, ContentCopy, CheckCircleOutline } from '@mui/icons-material';
 import { type DiscoverableMcpServer } from '../../types';
