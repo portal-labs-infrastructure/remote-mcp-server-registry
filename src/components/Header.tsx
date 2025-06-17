@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Header({ githubRepoUrl }: { githubRepoUrl: string }) {
   return (
-    <Box sx={{ textAlign: 'center', px: { xs: 2, md: 3 }, pt: 6, pb: 4 }}>
+    <Box sx={{ textAlign: 'center', px: { xs: 2, md: 3 }, pt: 6, pb: 3 }}>
       <Typography
         level="h1"
         component="h1"
@@ -16,7 +16,7 @@ function Header({ githubRepoUrl }: { githubRepoUrl: string }) {
         level="body-lg"
         textColor="text.secondary"
         sx={{ mb: 2 }}
-        maxWidth="90%"
+        maxWidth={{ sx: '90%', md: '600px' }}
         mx="auto">
         A community-maintained list of Model Context Protocol (MCP) servers that
         can be used directly without local installation.
