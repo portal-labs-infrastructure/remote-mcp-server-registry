@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Stack, Typography, Grid, CircularProgress } from '@mui/joy';
 import { type DiscoverableMcpServer } from '../types';
-import PublicDiscoverableServerCard from '../components/ServerCard';
+import PublicDiscoverableServerCard from './ServerCard';
 
 function Servers({ jsonPath }: { jsonPath: string }) {
   const [servers, setServers] = useState<DiscoverableMcpServer[]>([]);

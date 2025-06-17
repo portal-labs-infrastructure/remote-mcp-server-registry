@@ -4,7 +4,7 @@ import {
   Divider,
   // Removed many direct UI imports as they are in sub-components
 } from '@mui/joy';
-import { type DiscoverableMcpServer } from '../types';
+import { type DiscoverableMcpServer } from '../../types';
 
 // Import the new sub-components
 import ServerCardHeader from './ServerCardHeader';

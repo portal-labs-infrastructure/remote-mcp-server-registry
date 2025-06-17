@@ -210,8 +210,8 @@
     "is_official": true
   },
   {
-    "id": "cloudflare-cloudflare-one-casb-server",
-    "name": "Cloudflare Cloudflare One CASB",
+    "id": "cloudflare-one-casb-server",
+    "name": "Cloudflare One CASB",
     "description": "Quickly identify any security misconfigurations for SaaS applications to safeguard users & data",
     "category": "Cloudflare Service",
     "mcp_url": "https://casb.mcp.cloudflare.com/sse",

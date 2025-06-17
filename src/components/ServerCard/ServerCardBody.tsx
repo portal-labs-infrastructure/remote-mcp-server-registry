@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack, Typography, Chip, Box, Link as MuiLink } from '@mui/joy';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { LocalOfferOutlined } from '@mui/icons-material';
-import { type DiscoverableMcpServer } from '../types';
+import { type DiscoverableMcpServer } from '../../types';
 
 interface ServerCardBodyProps {
   server: Pick<
