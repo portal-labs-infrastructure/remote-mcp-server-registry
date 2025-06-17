@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Header({ githubRepoUrl }: { githubRepoUrl: string }) {
   return (
-    <Box sx={{ textAlign: 'center', px: { xs: 2, md: 3 }, pt: 4 }}>
+    <Box sx={{ textAlign: 'center', px: { xs: 2, md: 3 }, pt: 6, pb: 4 }}>
       <Typography
         level="h1"
         component="h1"
@@ -15,7 +15,7 @@ function Header({ githubRepoUrl }: { githubRepoUrl: string }) {
       <Typography
         level="body-lg"
         textColor="text.secondary"
-        sx={{ mb: 1.5 }}
+        sx={{ mb: 2 }}
         maxWidth="90%"
         mx="auto">
         A community-maintained list of Model Context Protocol (MCP) servers that
