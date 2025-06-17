@@ -76,8 +76,6 @@ Your contributions help keep this registry accurate and valuable for the communi
 
 - More advanced filtering and sorting of servers.
 - Schema validation for `mcp-servers.json` submissions (e.g., via GitHub Actions).
-- Displaying icons for servers if `icon_url` is provided.
-- Caching of reachability statuses.
 
 ## License
 
