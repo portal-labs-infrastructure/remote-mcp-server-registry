@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Divider, Box } from '@mui/joy';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import ColorSchemeToggle from './components/ColorSchemeToggle';
+import Servers from './components/Servers';
+
+// --- Configuration ---
+// Path to the JSON file within the 'public' directory
+const LOCAL_JSON_PATH = '/mcp-servers.json'; // Fetched as a static asset
+const GITHUB_REPO_URL =
+  'https://github.com/portal-labs-infrastructure/remote-mcp-server-registry';
+// --- End Configuration ---
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Box>
+      <ColorSchemeToggle />
+      <Header githubRepoUrl={GITHUB_REPO_URL} />
+      <Servers jsonPath={LOCAL_JSON_PATH} />
+      <Divider />
+      <Footer />
+    </Box>
+  );
 }
 
-export default App
+export default App;
