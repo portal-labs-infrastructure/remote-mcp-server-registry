@@ -3,6 +3,7 @@
 A public, community-maintained registry of remote Model Context Protocol (MCP) servers. This web application displays a list of known MCP servers.
 
 **Live Site:** https://remote-mcp-servers.com
+**Registry JSON:** https://remote-mcp-servers.com/mcp-servers.json
 
 ## Purpose
 
