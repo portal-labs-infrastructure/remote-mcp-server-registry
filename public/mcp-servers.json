@@ -419,6 +419,20 @@
     "icon_url": null,
     "is_official": true
   },
+    {
+    "id": "systemprompt-reddit-mcp",
+    "name": "Reddit",
+    "description": "Authenticate securely with Reddit, and access channels, posts and comments.",
+    "category": "Social media",
+    "mcp_url": "https://mcp.systemprompt.io/reddit/mcp",
+    "authentication_types": ["OAuth2.1"],
+    "dynamic_client_registration": true,
+    "documentation_url": "https://systemprompt.io/documentation",
+    "maintainer_name": "Systemprompt",
+    "maintainer_url": "https://systemprompt.io",
+    "icon_url": null,
+    "is_official": false
+  },
   {
     "id": "turkish-airlines-mcp",
     "name": "Turkish Airlines",
